@@ -80,13 +80,13 @@ be made to the site.
    
    Specifically:
    
-   a. go to Structure -> Content Types -> News & Features Syndicated News
+   1. go to Structure -> Content Types -> News & Features Syndicated News
    
-   a. click on the Manage Fields tab
+   1. click on the Manage Fields tab
    
-   a. On the line for the "Rotator Image" field, click on the "edit" link
+   1. On the line for the "Rotator Image" field, click on the "edit" link
    
-   a. in the "ROTATOR IMAGE FIELD SETTINGS" section at the bottom of the screen,
+   1. in the "ROTATOR IMAGE FIELD SETTINGS" section at the bottom of the screen,
       upload the desired 155x103 image for the "Default Image".
       
       Important Note: there are two different "Default Image" fields on this
@@ -95,7 +95,7 @@ be made to the site.
       The one you want is the very last thing on the page, at the bottom,
       just above the "Save Settings" button.
       
-   a. Click the "Save Settings" button
+   1. Click the "Save Settings" button
    
    
    
