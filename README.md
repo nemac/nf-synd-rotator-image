@@ -66,7 +66,7 @@ be made to the site.
    I don't know what image the site editor(s) will want to use, but for now you can use
    the file `NOAA-Transparent-Logo-155x103.png`, which is included in this project here:
    
-   ![NOAA-Transparent-Logo-155x103.png]("NOAA-Transparent-Logo-155x103.png" "NOAA-Transparent-Logo-155x103.png")
+   ![NOAA-Transparent-Logo-155x103.png](NOAA-Transparent-Logo-155x103.png "NOAA-Transparent-Logo-155x103.png")
    
    Note that if the logo used has a natural shape other than the full
    155x103 pixel rectangle (such as is the case for the NOAA logo,
