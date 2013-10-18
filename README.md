@@ -1,20 +1,35 @@
-News/Features Syndicated News Rotator Image
+### News/Features Syndicated News Rotator Image
 
 The files in this project document a procedure for adding a default
-image to the News/Features Syndicated News content type (machine-name
-"news").
+rotator image to the News/Features Syndicated News content type (machine-name
+"news") on climate.gov.
 
 This affects the way that syndicated news articles appear in the view
 that shows the top 5 most recent new items.
 
-![](NoIcons.png "Screenshot Showing News Artciles without Icons")
+More specfically, at present, syndicated news articles appear
+in the top-5 items list in the bottom-middle part of the
+News & Features page with no icon; see the red-circled area
+in the image below for an example:
 
-testing 123
+![NoIcons.png](NoIcons.png "Screenshot Showing News Artciles without Icons")
 
-![](Icons.png "Screenshot Showing News Artciles with Icons")
+By contract, non-syndicated news items (i.e. articles that are hosted
+on climate.gov itself) all have the potential to have rotator images,
+which in turn results in Drupal creating a little icon to display
+with each article's entry in the top-5 list.  See the red-circled
+area in the image below for reference:
 
-This git project exists simply to document the steps; this isn't a
-Drupal module or anything else that needs to be installed on the site.
+![Icons.png](Icons.png "Screenshot Showing News Artciles with Icons")
+
+This git project document the steps that I have found for adding
+a defaul rotator image to the "news" (News/Features Syndicated News) content
+type, so that the default image will appear in the top-5 list.
+
+This git project isn't a Drupal module or anything else that needs to
+be installed -- it is simply a way of documenting what changes need to
+be made to the site.
+
 
 1. The first thing that needs to be done is to modify some CSS that is
    part of the site theme and which seems to interfere with the
@@ -49,7 +64,13 @@ Drupal module or anything else that needs to be installed on the site.
 2. Choose a default image to be used.  The size allocated by the site theme for
    the rotator image icon is 155x103 pixels, so ideally, the default image should be 155x103.
    I don't know what image the site editor(s) will want to use, but for now you can use
-   the file `NOAA-Transparent-Logo-155x103.png`, which is included in this project.
+   the file `NOAA-Transparent-Logo-155x103.png`, which is included in this project here:
    
-   It is a good idea for the image to have a transparent background, because the teasers
+   ![NOAA-Transparent-Logo-155x103.png]("NOAA-Transparent-Logo-155x103.png" "NOAA-Transparent-Logo-155x103.png")
    
+   Note that if the logo used has a natural shape other than the full
+   155x103 pixel rectangle (such as is the case for the NOAA logo,
+   which is a circle), then it is a good idea for the image to have a
+   transparent background, because the top-5 list uses zebra-striping
+   with an alternating grey background, and a transparent image will
+   correctly hide the real 155x103 rectangular shape of the image.
