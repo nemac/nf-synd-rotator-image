@@ -98,4 +98,11 @@ be made to the site.
    1. Click the "Save Settings" button
    
    
+1. Clear Drupal's cache and return to the main News & Features to verify that
+   syndicated news entries now show the default icon in the top-5 list.
+   
+   You might need to wait until the next time that the site's feeds importer
+   imports syndicated items in order to see the change, but my experience with
+   my test site was that the changes were visible immediately, so this might
+   not be necessary.
    
