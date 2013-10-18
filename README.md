@@ -7,6 +7,12 @@ image to the News/Features Syndicated News content type (machine-name
 This affects the way that syndicated news articles appear in the view
 that shows the top 5 most recent new items.
 
+![](NoIcons.png "Screenshot Showing News Artciles without Icons")
+
+testing 123
+
+![](Icons.png "Screenshot Showing News Artciles with Icons")
+
 This git project exists simply to document the steps; this isn't a
 Drupal module or anything else that needs to be installed on the site.
 
