@@ -1575,9 +1575,12 @@ NEWS AND FEATURES
 .view-nf-front-page-departments .group-left img {
 }
 
+/* The following commented out to allow proper layout for News/Features Syndicated News teaser with rotator image:*/
+/*
 .view-nf-front-page-departments .node-news.view-mode-tiny_teaser .group-right {
 	width:100%;
 }
+*/
 
 .view-nf-front-page-departments .node-news.view-mode-tiny_teaser .group-right .field-name-field-original-url,.news-features .field-name-field-original-url .field-items {
 	font-weight:700;
@@ -1586,9 +1589,12 @@ NEWS AND FEATURES
 	line-height:1em;
 }
 
+/* The following commented out to allow proper layout for News/Features Syndicated News teaser with rotator image:*/
+/*
 .view-nf-front-page-departments .node-news.view-mode-tiny_teaser .group-left {
 	width:0;
 }
+*/
 
 .news-listing .field-name-node-link,.news-listing .field-name-sharing-tools {
 	float:right;
