@@ -61,7 +61,7 @@ be made to the site.
    multiple pages on a staged copy of the site after making these changes to confirm that
    there aren't any bad effects.
    
-2. Choose a default image to be used.  The size allocated by the site theme for
+1. Choose a default image to be used.  The size allocated by the site theme for
    the rotator image icon is 155x103 pixels, so ideally, the default image should be 155x103.
    I don't know what image the site editor(s) will want to use, but for now you can use
    the file `NOAA-Transparent-Logo-155x103.png`, which is included in this project here:
@@ -74,3 +74,28 @@ be made to the site.
    transparent background, because the top-5 list uses zebra-striping
    with an alternating grey background, and a transparent image will
    correctly hide the real 155x103 rectangular shape of the image.
+
+1. In the site's admin interface, upload the desired default image as the default
+   value for the rotator image field for the "news" content type.
+   
+   Specifically:
+   
+   a. go to Structure -> Content Types -> News & Features Syndicated News
+   
+   a. click on the Manage Fields tab
+   
+   a. On the line for the "Rotator Image" field, click on the "edit" link
+   
+   a. in the "ROTATOR IMAGE FIELD SETTINGS" section at the bottom of the screen,
+      upload the desired 155x103 image for the "Default Image".
+      
+      Important Note: there are two different "Default Image" fields on this
+      screen.  One of them is higher up on the page, just after the list
+      of "Enabled Browser Plugins".  Do not upload the image for that one.
+      The one you want is the very last thing on the page, at the bottom,
+      just above the "Save Settings" button.
+      
+   a. Click the "Save Settings" button
+   
+   
+   
